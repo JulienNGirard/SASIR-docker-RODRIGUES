@@ -1,0 +1,14 @@
+build-essential
+libcasacore-dev
+casacore-data
+devscripts
+python-astlib
+python-pyrap
+git
+nano
+libcfitsio3-dev
+cmake
+pkg-config
+gfortran
+libboost-all-dev
+

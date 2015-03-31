@@ -13,3 +13,14 @@ VOLUME /build
 ADD build.sh /
 RUN /build.sh
 
+# run part
+
+ADD src /code
+RUN ls -s /code/run.sh /run.sh
+
+RUN mkdir /input /output
+
+WORKDIR /code
+cmd /run.sh
+
+
